@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-      body {
-      font-family: Arial, sans-serif;
+    body {
+      font-family: Arial, silk-serif;
       text-align: center;
-      background-color: #000; /* Set background color to black */
+      background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+      background-size: cover; /* Scale the image to cover the entire page */
+      background-position: center; /* Center the image horizontally and vertically */
       color: #fff; /* Set text color to white */
     }
     .loading {
@@ -18,13 +20,12 @@
   </style>
 </head>
 <body>
-  <h1>Aurum </h1>
-  <p>Loading your menu...</p>
+  <h1>Loading your menu... </h1>
   <div class="loading">
     <img src="loading.gif" alt="Loading...">
   </div>
   <script>
-    // Redirect to PDF file after 1 second delay
+    // Redirect to PDF file after 1.7 second delay
     setTimeout(function() {
       window.location.href = 'https://aurum78.github.io/aurum/Aurum Food.pdf';
     }, 1700);
