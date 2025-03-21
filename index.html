@@ -1,13 +1,31 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title> Aurum QR Code Redirect</title>
-  <meta http-equiv="refresh" content="0; url=https://aurum78.github.io/aurum/Aurum Food.pdf">
+  <title>QR Code Redirect</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .loading {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
-  <script>
-    window.location.href = 'https://aurum78.github.io/aurum/Aurum Food.pdf';
-  </script>
-
 <body>
-  <h1>Redirecting to PDF file...</h1>
+  <h1>Aurum Menu</h1>
+  <p>Loading your menu...</p>
+  <div class="loading">
+    <img src="loading.gif" alt="Loading...">
+  </div>
+  <script>
+    // Redirect to PDF file after 1 second delay
+    setTimeout(function() {
+      window.location.href = 'https://aurum78.github.io/aurum/Aurum Food.pdf';
+    }, 1000);
+  </script>
 </body>
 </html>
