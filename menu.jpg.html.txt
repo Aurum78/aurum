@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirect to Aurum Menu</title>
+  <meta http-equiv="refresh" content="0; url=https://aurum78.github.io/aurum/">
+</head>
+<body>
+  <h1>Redirecting to Aurum Menu...</h1>
+</body>
+</html>
